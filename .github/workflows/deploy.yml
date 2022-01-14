@@ -13,7 +13,7 @@ jobs:
       - name: vuepress-deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
-          ACCESS_TOKEN: ${{ secrets._TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN  }}
           TARGET_REPO: AltQ1231/altq1231.github.io
 
           TARGET_BRANCH: gh-pages
