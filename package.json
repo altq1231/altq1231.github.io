@@ -6,7 +6,7 @@
     "dev": "vuepress dev src  --host \"localhost\"",
     "build": "vuepress build src"
   },
-  "repository": "git+https://github.com/Altq1231/altq1231.github.io.git",
+  "repository": "https://github.com/Altq1231/altq1231.github.io.git",
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "@vuepress/plugin-pwa": "^1.9.5",
