@@ -1,7 +1,6 @@
 module.exports = {
   title: "Altq's blog",
   description: "山水一程,三生有幸.",
-  dest: "dist",
   theme: "reco",
   head: [
     [

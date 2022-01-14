@@ -18,5 +18,4 @@ jobs:
 
           TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: yarn && yarn build
-          BUILD_DIR: src/dist/
-          CNAME: www.altq1231.cn
+          BUILD_DIR: src/.vuepress/dist/
