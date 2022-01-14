@@ -40,7 +40,7 @@ module.exports = {
         text: "联系",
         icon: "reco-message",
         items: [
-          { text: "Github", icon: "reco-github", link: "https://github.com/AltQ1231" },
+          { text: "Github", icon: "reco-github", link: "https://github.com/altq1231" },
           { text: "Blog", icon: "reco-blog", link: "https://altq1231.github.io" },
         ],
       },
