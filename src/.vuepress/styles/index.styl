@@ -1,11 +1,11 @@
 .content__default:not(.custom)
-  background-color: #ffffff
+  background-color: var(--background-color)
   border-radius: 4px
   box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.3)
 
 .page
   .page-title
-    background-color: #ffffff
+    background-color: var(--background-color)
     border-radius: 4px
     box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.3)
     margin-bottom: 20px !important
@@ -14,6 +14,11 @@ html
   body
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)
 
+html.dark
+  body
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply
+
 .home-blog
   .content__default:not(.custom)
     background: transparent
@@ -21,7 +26,7 @@ html
 
 .home-blog
   .blog-list
-    background-color: #ffffff
+    background-color: var(--background-color)
     border-radius: 4px
     box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.3)
   .abstract-item
@@ -33,3 +38,8 @@ html
     width: calc(100% - 80px) !important
   .pagation
     border-radius: 0 0 4px 4px
+
+.timeline-wrapper
+  .timeline-content
+    background-color: var(--background-color)
+    border-radius: 4px
